@@ -1,16 +1,5 @@
-/**
- * <div id="parent">
- *  <div id="child1">
- *  <h1> I am a H1 tag</h1>
- * <h2> I am a H2 tag</h2>
- * </div>
- *  <div id="child2">
- *  <h1> I am a H1 tag</h1>
- * <h2> I am a H2 tag</h2>
- * </div>
- * </div>
- */
-// here more than 1 element is returned into a single parent element passed as a array.
+import React from "react";
+import ReactDOM from "react-dom/client";
 
 const parent = React.createElement("div", { id: "parent" },
     [React.createElement("div", { id: "child1" },
@@ -24,7 +13,7 @@ const parent = React.createElement("div", { id: "parent" },
 
 console.log(parent);
 
-
+document.getElementById("root").on
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 

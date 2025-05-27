@@ -1,0 +1,27 @@
+{
+  "name": "2025praticereact",
+  "version": "1.0.0",
+  "description": "This is learning React ",
+  "scripts": {
+    "test": "jest",
+    "start": "index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gafoor8374/2025Learning-React.git"
+  },
+  "keywords": [],
+  "author": "shaik Gafoor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gafoor8374/2025Learning-React/issues"
+  },
+  "homepage": "https://github.com/gafoor8374/2025Learning-React#readme",
+  "devDependencies": {
+    "parcel": "^2.14.4"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}
